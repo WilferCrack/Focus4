@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Academic target ring -->
+    <path
+        android:pathData="M54,26 A28,28 0 1,1 53.9,26"
+        android:strokeWidth="3.2"
+        android:strokeColor="#38BDF8"
+        android:fillColor="#00000000" />
+    <!-- Crosshair ticks for focus -->
+    <path
+        android:pathData="M54,20 L54,28 M54,80 L54,88 M20,54 L28,54 M80,54 L88,54"
+        android:strokeWidth="3"
+        android:strokeColor="#38BDF8"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <!-- Open Book Pages (Academic base) -->
+    <path
+        android:pathData="M54,62 C50,57 40,56 34,58 L34,74 C40,72 50,73 54,78 C58,73 68,72 74,74 L74,58 C68,56 58,57 54,62 Z"
+        android:fillColor="#FFFFFF" />
+    <!-- Book Center spine line -->
+    <path
+        android:pathData="M54,62 L54,78"
+        android:strokeWidth="1.8"
+        android:strokeColor="#0F172A" />
+    <!-- 4-point Focus Star / Compass at upper center -->
+    <path
+        android:pathData="M54,34 L56.5,44 L66,46.5 L56.5,49 L54,58 L51.5,49 L42,46.5 L51.5,44 Z"
+        android:fillColor="#38BDF8" />
+    <!-- Center white core dot -->
+    <path
+        android:pathData="M54,44.5 A2,2 0 1,1 53.9,44.5"
+        android:fillColor="#FFFFFF" />
+</vector>

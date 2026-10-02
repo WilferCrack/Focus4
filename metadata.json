@@ -1,0 +1,6 @@
+{
+  "name": "FOCUS4",
+  "description": "Plataforma personal de estudio y productividad académica universitaria con tutor IA y temporizador de foco.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
